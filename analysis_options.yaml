@@ -22,10 +22,13 @@ linter:
   # producing the lint.
   rules:
     prefer_const_literals_to_create_immutables: false
-    avoid_relative_lib_imports: false
+    prefer_single_quotes: true
+    # avoid_relative_lib_imports: false
+    prefer_final_locals: true
     avoid_empty_else: true                   # 빈 else 금지
     avoid_redundant_argument_values: true    # 기본값과 중복된 인자 제거
-    prefer_final_locals: true
+    always_use_package_imports: true
+    camel_case_types: true
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
 
